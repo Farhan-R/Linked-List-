@@ -1,0 +1,122 @@
+body {
+    color: #000;
+    overflow-x: hidden;
+    height: 100%;
+    background-color: #B0BEC5;
+    background-repeat: no-repeat;
+    font-family: "proxima-nova", "Source Sans Pro", sans-serif;
+    letter-spacing: 0.5px;
+    text-rendering: optimizeLegibility;
+    text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.004);
+}
+
+.card0 {
+    box-shadow: 0 4px 8px 0 #757575;
+    border-radius: 0
+}
+
+.card2 {
+    margin: 0 30px
+}
+
+.container-fluid{
+    width: 1000px;
+}
+.image {
+    width: 500px;
+    height: 500px
+}
+
+.border-line {
+    border-right: 1px solid #EEEEEE
+}
+
+.text-sm {
+    font-size: 14px !important
+}
+
+::placeholder {
+    color: #BDBDBD;
+    opacity: 1;
+    font-weight: 300
+}
+
+:-ms-input-placeholder {
+    color: #BDBDBD;
+    font-weight: 300
+}
+
+::-ms-input-placeholder {
+    color: #BDBDBD;
+    font-weight: 300
+}
+
+input,
+textarea {
+    padding: 10px 12px 10px 12px;
+    border: 1px solid lightgrey;
+    border-radius: 2px;
+    margin-bottom: 5px;
+    margin-top: 2px;
+    width: 100%;
+    box-sizing: border-box;
+    color: #2C3E50;
+    font-size: 14px;
+    letter-spacing: 1px
+}
+
+input:focus,
+textarea:focus {
+    -moz-box-shadow: none !important;
+    -webkit-box-shadow: none !important;
+    box-shadow: none !important;
+    border: 1px solid #304FFE;
+    outline-width: 0
+}
+
+button:focus {
+    -moz-box-shadow: none !important;
+    -webkit-box-shadow: none !important;
+    box-shadow: none !important;
+    outline-width: 0
+}
+
+a {
+    color: inherit;
+    cursor: pointer
+}
+
+.btn-dark {
+    width: 150px;
+    color: #fff;
+    border-radius: 2px
+}
+
+.btn-dark:hover {
+    background-color: #32465a;
+    cursor: pointer
+}
+
+.bg-dark {
+    color: #fff;
+}
+
+@media screen and (max-width: 991px) {
+    .image {
+        width: 400px;
+        height: 400px
+    }
+
+    .border-line {
+        border-right: none
+    }
+
+    .card2 {
+        border-top: 1px solid #EEEEEE !important;
+        margin: 0 15px
+    }
+
+    .container-fluid {
+    width: fit-content;
+    }
+}
